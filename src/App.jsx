@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <h1>Assalomu alaykum</h1>
+      <p>Salom</p>
     </>
   );
 }
