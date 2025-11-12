@@ -1,11 +1,15 @@
 import React from "react";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
-    <>
-      <h1>Assalomu alaykum</h1>
-    </>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Layout>
   );
 }
 
